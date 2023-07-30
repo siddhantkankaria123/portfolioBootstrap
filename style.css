@@ -1,0 +1,49 @@
+body {
+  scroll-behavior: smooth;
+}
+.navbar-nav {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+.nav-link {
+  color: black;
+  font-size: 1.2rem;
+}
+.nav-link:hover {
+  color: #e7b10a;
+}
+.resume {
+  font-size: 1.4rem;
+  color: white;
+  width: fit-content;
+  border-radius: 10px;
+  background-color: #fc2947;
+}
+
+.name {
+  font-size: 2.6rem;
+}
+.surname {
+  color: #068fff;
+}
+.role {
+  font-size: 1.8rem;
+}
+.progress-bar {
+  background-color: #0a6ebd;
+  font-size: 1.2rem;
+}
+#contact {
+  background-color: #749bc2;
+}
+.copyright {
+  font-size: 1.5rem;
+}
+.skill-container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
